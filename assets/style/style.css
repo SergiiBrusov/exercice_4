@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#playground {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+#click,
+#click1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10%;
+    background-color: green;
+
+}
+
+#click1 {
+    transform: translate(100%);
+    background-color: yellow
+}
+
+#click:hover,
+#click1:hover {
+    background-color: red;
+
+}
+
+.myNameIs {
+    background-color: green;
+    color: black;
+    text-align: center;
+}
+
+.wuTang {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
